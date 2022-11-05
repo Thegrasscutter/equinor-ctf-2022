@@ -21,7 +21,7 @@ Bruker volatility3 for å se på disse lokasjonene og i `\CurrentVersion\RunOnce
 python3 vol.py -f memdump.raw windows.registry.printkey.PrintKey --key "Software\Microsoft\Windows\CurrentVersion\RunOnce"
 ```
 
-Åpner en clean window vm og disabler "RealtimeMonitoring" og kjører skriptet 
+Åpner en clean windows vm og disabler "RealtimeMonitoring" og kjører skriptet 
 `Set-MpPreference -DisableRealtimeMonitoring $false`
 
 og får ut flagget 
